@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<mauiRepro21835:CustomTabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+								 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+								 xmlns:mauiRepro21835="clr-namespace:Maui_Repro_21835"
+								 xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+								 x:Class="Maui_Repro_21835.MainPage"
+								 android:TabbedPage.ToolbarPlacement="Bottom"
+								 android:TabbedPage.IsSwipePagingEnabled="False"
+								 android:TabbedPage.IsSmoothScrollEnabled="False">
+	<TabbedPage.Children>
+		<ContentPage Title="A">
+			<Label Text="Page 1"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center" />
+		</ContentPage>
+		<ContentPage Title="B">
+			<Label Text="Page 2"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center" />
+		</ContentPage>
+		<ContentPage Title="C">
+			<Label Text="Page 3"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center" />
+		</ContentPage>
+		<ContentPage Title="D">
+			<Label Text="Page 4"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center" />
+		</ContentPage>
+		<ContentPage Title="E">
+			<Label Text="Page 5"
+				   HorizontalOptions="Center"
+				   VerticalOptions="Center" />
+		</ContentPage>
+	</TabbedPage.Children>
+</mauiRepro21835:CustomTabbedPage>
